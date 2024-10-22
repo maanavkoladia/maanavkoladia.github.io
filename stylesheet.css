@@ -1,0 +1,54 @@
+/* Apply style to an HTML tag */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Create and apply class for styling */
+.highlight {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Create and apply id for styling */
+#about {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style a <div> section */
+.section {
+    padding: 20px;
+    border: 2px solid #cccccc;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Style for <a> link and hover */
+.link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Change box model properties (padding and margin) */
+.profile-pic {
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
